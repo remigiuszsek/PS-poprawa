@@ -11,18 +11,16 @@ float sumaKwadratow(struct element * lista1, struct element * lista2)
     float suma = 0;
     while(lista1->next != NULL)
     {
-        suma += lista1->next->x * lista1->next->x;
-        printf("Suma: %f\n", suma);
-        
         lista1 = lista1->next;
+        suma += lista1->x * lista1->x;
+        printf("Suma: %f\n", suma);
     }
     
     while(lista2->next != NULL)
     {
-        suma += lista2->next->x * lista2->next->x;
-        printf("Suma: %f\n", suma);
-        
         lista2 = lista2->next;
+        suma += lista2->x * lista2->x;
+        printf("Suma: %f\n", suma);
     }
     return suma;
 }
