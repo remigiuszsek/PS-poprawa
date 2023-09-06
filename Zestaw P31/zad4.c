@@ -11,7 +11,7 @@ void wyswietl(struct node * lista)
 {
     while(lista != NULL)
     {
-        if(sqrt(lista->i) * sqrt(lista->i) == lista->i)
+        if(sqrt(lista->i) ==  (int)sqrt(lista->i))
         {
             printf("%d, ", lista->i);
         }
@@ -25,9 +25,9 @@ int main()
     
     lista->i = 4;
     lista->next = malloc(sizeof(struct node));
-    lista->next->i = 5;
+    lista->next->i = 11;
     lista->next->next = malloc(sizeof(struct node));
-    lista->next->next->i = 9;
+    lista->next->next->i = 25;
     lista->next->next->next = NULL;
     
     wyswietl(lista);
