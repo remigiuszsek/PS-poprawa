@@ -1,3 +1,3 @@
-# PSC-poprawa
-Nauka na wrześniową poprawę z PSC
+# PS-poprawa
+Nauka na wrześniową poprawę z PS
 Miejsce na naukę
