@@ -1,3 +1,3 @@
 # PS-poprawa
-Nauka na wrześniową poprawę z PS
+Nauka na wrześniową poprawę egzaminu z PS
 Miejsce na naukę
